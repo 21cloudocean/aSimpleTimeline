@@ -1,0 +1,57 @@
+/* 
+===================
+global
+===================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 2rem 0;
+  font-size: 1.25rem;
+}
+p {
+  font-size: 0.8rem;
+  color: #808080;
+  padding-bottom: 1.25rem;
+}
+.month {
+  color: #a9a9a9;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+/* 
+===================
+timeline
+===================
+*/
+.year {
+  width: 70vw;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.timeline {
+  padding-top: -3px;
+  padding-left: 1rem;
+  display: flex;
+}
+.center {
+  position: relative;
+  border-left: 0.5px dashed #a9a9a9;
+}
+.point {
+  background-color: red;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+.text {
+  padding-left: 6rem;
+}
